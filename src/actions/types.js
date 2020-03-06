@@ -1,0 +1,31 @@
+// action types untuk LoginFormReducer
+export const INPUT_TEXT = 'INPUT_TEXT';
+export const HIDE_UNHIDE_PASSWORD = 'HIDE_UNHIDE_PASSWORD';
+export const LOADING_LOGIN = 'LOADING_LOGIN';
+
+// action types untuk LoginFormReducer & UserReducer
+export const USER_LOGIN_SUCCESS = 'USER_LOGIN_SUCCESS';
+export const USER_LOGIN_FAIL = 'USER_LOGIN_FAIL';
+
+// action types untuk HomeListPostReducer
+export const FILL_LIST_POST = 'FILL_LIST_POST';
+
+//action types untuk EditProfileReducer
+export const INIT_EDIT_PROFILE = 'INIT_EDIT_PROFILE';
+export const INPUT_EDIT_PROFILE_TEXT = 'INPUT_EDIT_PROFILE_TEXT';
+export const LOADING_SAVE_PROFILE = 'LOADING_SAVE_PROFILE';
+
+//action types untuk PostPhotoReducer
+export const IMAGE_CHANGE = 'IMAGE_CHANGE';
+export const INPUT_CAPTION_CHANGE = 'INPUT_CAPTION_CHANGE';
+export const POST_PHOTO_LOADING = 'POST_PHOTO_LOADING';
+export const POST_PHOTO_SUCCESS = 'POST_PHOTO_SUCCESS';
+export const POST_PHOTO_FAIL = 'POST_PHOTO_FAIL';
+
+//action types untuk PostDetailPhotoReducer
+export const INIT_POST_DETAIL_PROFILE = 'INIT_POST_DETAIL_PROFILE';
+export const DELETE_POST_LOADING = 'DELETE_POST_LOADING';
+export const DELETE_POST_SUCCESS = 'DELETE_POST_SUCCESS';
+export const DELETE_POST_FAIL = 'DELETE_POST_FAIL';
+export const EDIT_POST = 'EDIT_POST';
+export const CANCEL_EDIT_POST = 'CANCEL_EDIT_POST';
